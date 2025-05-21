@@ -8,7 +8,7 @@
 	"maxVersion":"",
 	"priority":200,
 	"inRepository":false,
-	"lastUpdated":"2020-11-30"
+	"lastUpdated":"2025-05-21"
 	}
 	 
 	
@@ -23,7 +23,7 @@
 			var title = item.title ? "*" + item.title + "*" : "";
 			var key = item.key;
 	
-			Zotero.write(`[${author_lastname}${year}${title}](zotero://select/items/${library_id}_${key})`);
+			Zotero.write(`[${author_lastname}${year}${title}](zotero://select/library/items/${key})`);
 		}
 	}
 
