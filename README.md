@@ -1,6 +1,10 @@
 # zotero-markdown-translator
 A simple Zotero translator that creates a Markdown Link when exporting
 
+## Fork info
+
+This fork update the URI scheme to one that is supported by both the desktop and iOS zotero application. The origianl fork uses a scheme that has been apparently replaced in 2014: https://forums.zotero.org/discussion/124371/the-uri-deeplink-you-get-from-desktop-app-is-not-the-same-that-works-on-ios#latest
+
 ## Demo 
 ![](demo.gif)
 ## How to Install
