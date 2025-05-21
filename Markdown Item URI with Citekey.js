@@ -25,7 +25,7 @@
                 var key = item.key;
                 var citekey = item.citationKey ? `[[${item.citationKey}]]` : "";
         
-                Zotero.write(`[${author_lastname}${year}${title}](zotero://select/items/${library_id}_${key})${citekey}`);
+                Zotero.write(`[${author_lastname}${year}${title}](zotero://select/library/items/${key})${citekey}`);
             }
         }
 
